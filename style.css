@@ -36,6 +36,10 @@ p {
   border-radius: 50%;
 }
 
+#lewagon {
+  width: 200px;
+}
+
 .button {
   background-color: #FD1015;
   color: #ffffff;

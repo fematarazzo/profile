@@ -77,6 +77,17 @@ li .estudos-retangulo {
   margin-bottom: 3px;
 }
 
+li .icon {
+  padding: 0px 25px;
+}
+
+.icon {
+  width: 50px;
+}
+
+.open-source {
+  margin-bottom: 4px;
+}
 
 #social {
   font-size: 50px;
@@ -87,6 +98,8 @@ li .estudos-retangulo {
   text-decoration: none;
   color: #fcbf49;
 }
+
+
 
 a {
   text-decoration: none;

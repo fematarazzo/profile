@@ -1,0 +1,86 @@
+@import url('components/avatar.css');
+@import url('components/banner.css');
+@import url('components/button.css');
+@import url('components/card.css');
+@import url('components/footer.css');
+@import url('components/navbar.css');
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  /*background-color: #011627;*/
+  color: #EEEEEE;
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+  background-image: url(../images/neo.gif);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 1800px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+  color: #f77f00;
+}
+
+.container {
+  width: 1450px;
+  margin: auto;
+}
+
+.text {
+  text-align: justify;
+  line-height: 1.5;
+}
+
+#lewagon {
+  width: 200px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  padding: 15px;
+}
+
+li .estudos-retangulo {
+  padding: 0px 25px;
+}
+
+.estudos-retangulo {
+  width: 70px;
+}
+
+.vivo {
+  margin-bottom: 3px;
+}
+
+li .icon {
+  padding: 0px 25px;
+}
+
+.icon {
+  width: 50px;
+}
+
+.open-source {
+  margin-bottom: 4px;
+}
+
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,14 @@
+.button {
+  background-color: #FD1015;
+  color: #ffffff;
+  padding: 15px 10px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.button:hover {
+  text-decoration: none;
+  background-color: #e45d60;
+}

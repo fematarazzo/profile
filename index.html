@@ -1,84 +1,108 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="utf-8">
     <meta name="description" content="Porfolio de Felipe Matarazzo">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Felipe's profile</title>
   </head>
+
   <body>
-    <div>
-      <h1>Hi! I'm Felipe 👋🏼</h1>
-      <h2>Programmer 🤖</h2>
-      <img src="images/eu.jpg" alt="Foto de perfil Felipe" id="eu">
-      <p>Technology enthusiast diving into code! 👨🏼‍💻</p>
-    </div>
-    <div>
-      <h2>Bio 🙋🏼</h2>
-      <p>Formado em administração pelo Insper, trabalhei por mais de 5 anos com marketing e estratégia na Vivo 💡📈.</p>
-      <ul>
-        <li>
-          <a href="https://www.insper.edu.br/" target="_blank">
-            <img src="images/insper-inverted.png" alt="Insper" class="estudos-retangulo">
-          </a>
-        </li>
-        <li>
-          <a href="https://www.vivo.com.br/" target="_blank">
-            <img src="images/pw_rev_img_logo_vivo.png" alt="Vivo" class="estudos-retangulo vivo">
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div>
-      <h2>Interests 💙</h2>
-      <p>Sempre fui apaixonado por tecnologia e games 🤩🎮.</p>
-    </div>
-    <div>
-      <h2>Open Source and GNU/Linux 🐧</h2>
-      <p>De alguns anos pra cá, comecei a usar Linux e me apaixonei pela filosofia Open Source.</p>
-      <ul>
-        <li>
-          <a href="https://en.wikipedia.org/wiki/Linux" target="_blank">
-            <img src="images/tux.png" alt="Tux mascote Linux" class="icon">
-          </a>
-        </li>
-        <li>
-          <a href="https://en.wikipedia.org/wiki/Open_source" target="_blank">
-            <img src="images/logo_open_source.png" alt="Logo open source" class="icon open-source">
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div>
-      <h2>Why code? 🤔</h2>
-      <img src="images/lewagon.gif" alt="GIF Le Wagon" id="lewagon">
-      <p>Acredito que codar seja uma habilidade fundamental para qualquer um hoje em dia e quero cair de cabeça nesse mundo! 🌐</p>
-      <a href="https://www.lewagon.com/" class="button">Check out Le Wagon</a>
-    </div>
-    <div>
-      <h2>Follow me</h2>
-      <ul>
-        <li>
-          <a href="https://github.com/fematarazzo" target="_blank">
-            <i id="social" class="fab fa-github"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/felipe_matarazzo/" target="_blank">
-            <i id="social" class="fab fa-instagram"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/felipemps/" target="_blank">
-            <i id="social" class="fab fa-linkedin-in"></i>
-          </a>
-        </li>
-      </ul>
+    <div class="container">
+      <div class="card-bigger">
+        <div class="card-big">
+          <div class="card">
+            <h1>Hi! I'm Felipe 👋🏼</h1>
+            <h2>Programmer 🤖</h2>
+            <img src="images/eu.jpg" alt="Foto de perfil Felipe" class="avatar">
+            <h3>Technology enthusiast diving into code! 👨🏼‍💻</h3>
+          </div>
+          <div class="card">
+            <h2>Bio 🙋🏼</h2>
+              <p>5 years of experience with business strategy and customer experience. Diving into code with <strong>Le Wagon</strong>.</p>
+              <p>Learn more about my graduation and last company here:</p>
+              <ul>
+                <li>
+                  <a href="https://www.insper.edu.br/" target="_blank">
+                    <img src="images/insper-inverted.png" alt="Insper" class="estudos-retangulo">
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.vivo.com.br/" target="_blank">
+                    <img src="images/pw_rev_img_logo_vivo.png" alt="Vivo" class="estudos-retangulo vivo">
+                  </a>
+                </li>
+              </ul>
+          </div>
+          <div class="card card-footer">
+            <h2>Follow me</h2>
+            <div class="footer-links">
+              <a href="https://github.com/fematarazzo"><i class="fab fa-github"></i></a>
+              <a href="https://www.instagram.com/felipe_matarazzo/"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/felipemps/"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-big">
+
+          <div class="card-smaller">
+            <h2>Skills</h2>
+            <p>Full-stack web developer. Skills include:</p>
+            <div class="footer-links footer-skills">
+              <a href="https://git-scm.com/">
+                <i class="fab fa-git"></i></i>
+              </a>
+              <a href="https://github.com/">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://www.ruby-lang.org/en/">
+                <i class="fas fa-gem"></i>
+              </a>
+              <a href="https://en.wikipedia.org/wiki/SQL">
+                <i class="fas fa-database"></i>
+              </a>
+              <a href="https://en.wikipedia.org/wiki/HTML">
+                <i class="fab fa-html5"></i>
+              </a>
+              <a href="https://en.wikipedia.org/wiki/CSS">
+                <i class="fab fa-css3-alt"></i>
+              </a>
+              <a href="https://www.javascript.com/">
+                <i class="fab fa-js-square"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="card-smaller">
+            <h2>Open Source and GNU/Linux</h2>
+            <p>Using GNU/Linux as an OS since 2017 and using open source philosophy on a daily basis. Learn more about Linux and Open Source here:</p>
+            <ul>
+              <li>
+                <a href="https://en.wikipedia.org/wiki/Linux" target="_blank">
+                  <img src="images/tux.png" alt="Tux mascote Linux" class="icon">
+                </a>
+              </li>
+              <li>
+                <a href="https://en.wikipedia.org/wiki/Open_source" target="_blank">
+                  <img src="images/logo_open_source.png" alt="Logo open source" class="icon open-source">
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="card-smaller card-code">
+            <h2>Why code? 🤔</h2>
+            <img src="images/lewagon.gif" alt="GIF Le Wagon" id="lewagon">
+            <p>Code is considered an essential skill for anyone nowadays. Wanna learn more from the #1 best Coding Bootcamp in the world? Check out <strong>Le Wagon</strong>!</p>
+            <a href="https://www.lewagon.com/" class="button">Check out Le Wagon</a>
+          </div>
+        </div>
+      </div>
+
+      </div>
     </div>
   </body>
 </html>
